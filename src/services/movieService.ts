@@ -18,7 +18,6 @@ const apiClient = axios.create({
   },
 });
 
-// ДОДАЛИ: функція тепер приймає другий параметр - page (за замовчуванням 1)
 export const fetchMovies = async (
   query: string,
   page: number = 1,
